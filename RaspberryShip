@@ -1,0 +1,258 @@
+.razzyship { 
+  background: linear-gradient(to bottom, #111, #3a3a39);
+  width:605px;
+  margin:30px auto;
+  position:relative;
+  box-shadow: 0px 0px 30px #252726; 
+  border-right: 2px solid rgba(255,255,255,0.8);
+  overflow:hidden;
+  border-radius: 160px 0px 20px 0px;
+}
+
+.razzyship span {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  position:absolute;
+  bottom:15px; right:-4px;
+  font: 36px 'crimson text', serif; letter-spacing:2px; word-spacing:20px;
+  color:#fff;
+}
+.razzyship t {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  position:absolute;
+  bottom:3px; right:33px;
+  font: 10px courier, monospace; font-weight:bold; letter-spacing:2px; text-decoration:overline;
+  color:#fff;
+  height:849px; text-align:right;
+}
+
+
+.txtrazzh {
+  font: 28px 'crimson text', serif;
+  letter-spacing:1px; font-weight:bold; line-height:24px;
+  width:104%;
+  margin-left:-5px; margin-right:-5px; margin-top:10px; padding:0px;
+  border-bottom:3px solid #111;
+}
+
+.txtrazz p { 
+  padding:5px 10px 5px 10px;
+  font-size:12px;font-weight:bold; font-family: courier, monospace;
+  background: rgba(255,255,255,.4);
+  color:#111;
+  margin-top:5px; margin-bottom:40px;
+}
+
+.txtrazz a {
+  color:#a22719;
+  font-size:13px;
+  text-decoration-style:dotted;
+  text-decoration-color:#000;
+}
+
+.hovrz { 
+   position:absolute;
+  right:45px;
+  top:30px;
+  opacity:0;
+  transition:1.5s;
+}
+
+.txtrazz {
+  height:360px;
+  width:340px;
+  background: rgba(255,255,255,0.6);
+  padding:10px 20px;
+  overflow:auto;
+  }
+
+.drop1 {
+  position:absolute;
+  bottom:200px;
+  height:20px; width:20px;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:50%;
+  background:#a3463c;
+  transition:0s;
+  opacity:0;
+   box-shadow: 0px 0px 20px #252726; 
+  padding:5px; text-align:center;
+  color:#fff;
+}
+.drop2 {
+  position:absolute;
+  bottom:200px;
+  height:20px; width:20px;
+   padding:5px; text-align:center;
+  color:#fff;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:50%;
+  background:#a3463c;
+   transition:0s;
+  opacity:0; 
+  box-shadow: 0px 0px 20px #252726; 
+}
+.drop3 {
+  position:absolute;
+  bottom:200px;
+height:20px; width:20px;
+   padding:5px; text-align:center;
+  color:#fff;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:50%;
+  background:#a3463c;
+   transition:0s;
+  opacity:0;
+   box-shadow: 0px 0px 20px #252726; 
+}
+.drop4 {
+  position:absolute;
+  bottom:200px;
+height:20px; width:20px;
+   padding:5px; text-align:center;
+  color:#fff;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:50%;
+  background:#a3463c;
+   transition:0s;
+  opacity:0;
+   box-shadow: 0px 0px 20px #252726; 
+}
+.drop5 {
+  position:absolute;
+  bottom:200px;
+height:20px; width:20px;
+   padding:5px; text-align:center;
+  color:#fff;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:50%;
+  background:#a3463c;
+   transition:0s;
+  opacity:0;
+   box-shadow: 0px 0px 20px #252726; 
+}
+
+.drop1 a, .drop2 a, .drop3 a, .drop4 a, .drop5 a {
+  color:#fff; text-decoration:none; font-weight:bold; 
+}
+.razzou:hover .hovrz { 
+  position:absolute;
+  right:55px;
+  top:20px;
+ border:3px solid rgba(255,255,255,0.4);
+  padding:10px;
+  opacity:1.0;
+  transition:1.5s;
+}
+
+
+.razzou:hover .roundboi {
+  position:absolute;
+  top:535px; right:5px;
+  height:300px; width:300px;
+  border-radius:50%; border:2px solid rgba(255,255,255,0.17);
+}
+
+.razzou:hover .drop1 {
+   position:absolute;
+  bottom:180px;right:288px;
+  opacity:1;
+  transition:1.5s;
+}
+.razzou:hover .drop2 {
+   position:absolute;
+  bottom:128px; right:291px;
+  opacity:1;
+  transition:1.5s;
+}
+.razzou:hover .drop3 {
+   position:absolute;
+  bottom:77px; right:273px;
+  opacity:1;
+  transition:1.5s;
+}
+.razzou:hover .drop4 {
+   position:absolute;
+  bottom:35px; right:238px;
+  opacity:1;
+  transition:1.5s;
+}
+.razzou:hover .drop5 {
+   position:absolute;
+  bottom:8px; right:187px;
+  opacity:1;
+  transition:1.5s;
+}
+.razzou:hover .credz a {
+  position:absolute; bottom:10px; left:20px;
+  color:rgba(255,255,255,.5); font-size:35px;
+  text-decoration:none;
+}
+
+.abtrazz {
+  border-bottom:25px solid #3a3a39;
+  border-top:5px solid #3a3a39;
+   margin:auto; margin-bottom:3px;
+  width:380px; background: rgba(255,255,255,0.3);
+    box-shadow:0px 2px 20px rgba(0,0,0,.5);
+  z-index:3;
+}
+
+.abtrazz g {
+  display:block;
+  padding:5px 10px 5px 10px;
+  font-size:12px; font-family: courier, monospace;
+  background: rgba(255,255,255,.5);
+  color:#111;
+  margin:-7px 5px 3px 5px;
+  height:48px; overflow:auto;
+  text-align:justify;
+}
+
+.abtrazz img {
+  height:90px;
+  width:90px;
+  border:5px solid rgba(255,255,255,.7);
+  margin:6px 13px 7px 13px;
+  border-radius:50%;
+}
+
+.usern { 
+  position:absolute;
+  left:30px; top:187px;
+  color:#fff;
+  letter-spacing:3px;
+  font: 20px 'crimson text', serif; font-weight:600; font-variant:small-caps;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    min-width: 100px;
+    background-color: #222;
+    color: #fff; font-size: 12px; font-family:courier; 
+  font-weight:bold; letter-spacing:2px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+
+    /* Position the tooltip */
+    position: absolute; top:0px;left:-120px; top:3px;
+    z-index: 1;
+}
+
+.drop1:hover .tooltiptext {
+    visibility: visible;
+}
+.drop2:hover .tooltiptext {
+    visibility: visible;
+}
+.drop3:hover .tooltiptext {
+    visibility: visible;
+}
+.drop4:hover .tooltiptext {
+    visibility: visible;
+}
+.drop5:hover .tooltiptext {
+    visibility: visible;
+}
